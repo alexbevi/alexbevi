@@ -50,8 +50,11 @@ jobs:
           plugin_stargazers_charts_type: classic
           plugin_stargazers_days: 14
           # plugin_achievements: yes
-          plugin_repositories: yes
-          plugin_repositories_pinned: 5
+          plugin_people: yes
+          plugin_people_types: followers
           plugin_topics: yes
           plugin_topics_limit: 10
           plugin_topics_mode: icons
+          plugin_languages_indepth: yes
+          plugin_languages_details: lines, bytes-size
+          plugin_languages_analysis_timeout: 15
